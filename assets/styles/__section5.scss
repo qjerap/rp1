@@ -1,0 +1,17 @@
+.section5 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    height: 400px;
+}
+
+.section5__right {
+    grid-column: 2 / 3;
+    background-color: rgba($color: #fff, $alpha: 0.9);
+
+}
+
+.section5__left {
+    grid-column: 1 / 2;
+    background-color: rgba($color: #fff, $alpha: 0.97);
+
+}

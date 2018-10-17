@@ -1,0 +1,30 @@
+.section2 {
+    display: grid;
+    grid-template-columns: 1.33fr 1.33fr 1.33fr 1fr;
+    height: 600px;
+}
+
+.section2__image1 {
+    background-image: url(/assets/images/section2__image1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+}
+.section2__image2 {
+    background-image: url(/assets/images/section2__image3.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.section2__image3 {
+    background-image: url(/assets/images/section2__image2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.section2__side {
+    background-color: #141414;
+}

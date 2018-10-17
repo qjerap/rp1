@@ -1,0 +1,19 @@
+.section3 {
+    display: grid;
+    grid-template-columns: 1.333fr 1.333fr 1.333fr 1fr;
+    height: 500px;
+}
+
+.section3__1 {
+    background-color: rgba($color: #fff, $alpha: 0.97);
+}
+.section3__2 {
+    background-color: rgba($color: #fff, $alpha: 0.9);
+}
+.section3__3 {
+    background-color: rgba($color: #fff, $alpha: 0.9);
+}
+
+.section3__side {
+    background-color: rgba($color: #fff, $alpha: 0.9);
+}

@@ -1,0 +1,15 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1.33fr 3.67fr;
+    height: 250px;
+}
+
+.footer__left {
+    grid-column: 1 / 2;
+    background-color: rgba($color: #fff, $alpha: 0.97);
+}
+
+.footer__right {
+    grid-column: 2 / 3;
+    background-color: #141414;
+}

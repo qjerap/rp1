@@ -1,3 +1,25 @@
-h1 {
-    color: red;
+@import '__normalize';
+@import '__header';
+@import '__about';
+@import '__section1';
+@import '__section2';
+@import '__section3';
+@import '__section4';
+@import '__section5';
+@import '__footer';
+
+* {
+    box-sizing: border-box;
 }
+
+body {
+    background-color: #333333;
+}
+
+.wrapper {
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.7);
+
+}
+
