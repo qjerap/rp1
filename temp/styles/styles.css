@@ -426,7 +426,7 @@ template {
 
 .header__hero {
   grid-area: 2/1/3/2;
-  background-image: url(/rp1/assets/images/header__hero--hd.jpg);
+  background-image: url(https://qjerap.github.io/rp1/assets/images/header__hero--hd.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
