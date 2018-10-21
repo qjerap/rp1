@@ -12,6 +12,8 @@
 .section5__right {
     grid-column: 2 / 3;
     background-color: rgba($color: #fff, $alpha: 0.9);
+    display: grid;
+    align-items: end;
 
     @media screen and ( max-width : 600px ){
         display: none;

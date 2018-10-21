@@ -8,12 +8,17 @@
 @import '__section5';
 @import '__footer';
 @import '__animations';
+@import '__up';
 
 
 
 * {
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     background-color: #333333;

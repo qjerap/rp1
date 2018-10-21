@@ -791,6 +791,8 @@ template {
 .section5__right {
   grid-column: 2/3;
   background-color: rgba(255, 255, 255, 0.9);
+  display: grid;
+  align-items: end;
 }
 @media screen and (max-width: 600px) {
   .section5__right {
@@ -966,7 +968,7 @@ template {
 }
 .slidedown {
   animation: slidedown 1.5s;
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 .birdAnimation {
@@ -984,8 +986,28 @@ template {
     transform: translateX(0px);
   }
 }
+.up {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  opacity: 0;
+}
+.up i {
+  margin: auto 5px;
+  font-size: 2.5rem;
+  color: #141414;
+  transition: all 0.3s;
+}
+.up i:hover {
+  transform: translateY(-5px);
+}
+
 * {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
