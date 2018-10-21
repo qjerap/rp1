@@ -1,17 +1,100 @@
 .section5 {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    height: 400px;
+    @media screen and ( max-width : 600px ){
+        grid-template-columns: 1fr;
+        
+
+    }
+
 }
 
 .section5__right {
     grid-column: 2 / 3;
     background-color: rgba($color: #fff, $alpha: 0.9);
 
+    @media screen and ( max-width : 600px ){
+        display: none;
+        
+
+    }
+
 }
 
 .section5__left {
     grid-column: 1 / 2;
     background-color: rgba($color: #fff, $alpha: 0.97);
+    display: grid;
+    grid-template-columns: 1.33fr 2.66fr;
+
+    @media screen and ( max-width : 600px ){
+        grid-template-columns: 1fr;
+        
+
+    }
+
+    &-main {
+
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+        margin-left: 15%;
+        margin-right: 5%;
+        padding: 60px 0;
+        opacity: 0;
+
+
+
+        h1 {
+            max-width: 400px;
+            text-align: end;
+            align-self: flex-end;
+        }
+
+        p{
+        max-width: 600px;
+        color: rgba($color: #000, $alpha: 0.4);
+        font-size: 0.9rem; 
+        padding: 20px 0 40px 0;  
+        text-align: right;
+        align-self: flex-end;
+
+        }
+
+        button {
+            padding: 10px 25px;
+            width: 150px;
+            color: white;
+            background-color: rgba($color: #141414, $alpha: 0.9);
+            border: none;
+            outline: none;
+            cursor: pointer;
+            box-shadow: -1px 1px 1px rgba($color: #000, $alpha: 0.4);
+            transition: all 0.5s;
+            align-self: center;
+
+
+        }
+
+        button:hover {
+            // transform: scale(1.05);
+            // color: rgb(241, 199, 93);
+            background-color: rgba($color: #141414, $alpha: 0.8);
+            box-shadow: -2px 2px 3px rgba($color: #000, $alpha: 0.4);
+
+
+        }
+        
+    }
+
+    &-side {
+        @media screen and ( max-width : 600px ){
+            display: none;
+            
+
+        }
+    }
+
 
 }
